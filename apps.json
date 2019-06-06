@@ -1,0 +1,30 @@
+{
+  "ammonitee": {
+    "scalaVersion": "2.12.+",
+    "mainClass": "ammonite.Main?",
+    "repositories": [
+      "central"
+    ],
+    "dependencies": [
+      "com.lihaoyi:::ammonite:latest.stable"
+    ],
+    "name": "ammm"
+  },
+  "echo-graalvmm": {
+    "repositories": [
+      "central"
+    ],
+    "launcherType": "graalvm-native-image",
+    "dependencies": [
+      "io.get-coursier:echo:latest.stable"
+    ]
+  },
+  "echo-javaa": {
+    "repositories": [
+      "central"
+    ],
+    "dependencies": [
+      "io.get-coursier:echo:latest.stable"
+    ]
+  }
+}
